@@ -1,27 +1,31 @@
-# package_name
+# calculadora_MaOtg
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package calculadora_MaOtg is used to:
+	Calcular:
+		- Soma
+		- Subtração
+		- Multiplicação
+		- Divisão
+		- Potência
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install calculadora_MaOtg
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from calculadora_MaOtg import calcular as calc
+calc.soma(a, b)
 ```
 
 ## Author
-My_name
+Mateus O Mendes
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
